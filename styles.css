@@ -153,6 +153,71 @@ nav h2 {
   margin-left: 24px;
 }
 
+.we-are-gamer {
+  display: flex;
+  align-items: center;
+}
+
+.we-are-gamer-left-side {
+  width: 60%;
+}
+
+.we-are-gamer-left-side img {
+  width: 100%;
+}
+
+.we-are-gamer-right-side {
+  width: 40%;
+  text-align: right;
+}
+
+.we-are-gamer-right-side h3 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.we-are-gamer-right-side p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 0 32px 0;
+}
+
+.we-are-gamer-right-side div button {
+  padding: 21px 40px;
+  border: 0;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.we-are-gamer-right-side h4 span {
+    color: #534c64;
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+}
+
+.we-are-gamer-right-side h4 {
+  color: #534c64;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+
 @media screen and (min-width: 325px) and (max-width: 768px) {
   nav,
   .menu ul {
@@ -175,13 +240,33 @@ nav h2 {
     padding: 130px 140px;
   }
 
-  .btn-container{
+  .btn-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .sign-in-btn{
+  .sign-in-btn {
     margin: 20px 0;
+  }
+
+  .we-are-gamer{
+    flex-direction: column;
+  }
+  
+  .we-are-gamer-right-side{
+    text-align: center;
+  }
+
+  .we-are-gamer-right-side h3{
+    font-size: 42px;
+  }
+
+  .we-are-gamer-right-side h4{
+    font-size: 17px;
+  }
+  
+  .we-are-gamer-right-side h4 span{
+    font-size: 17px;
   }
 }
