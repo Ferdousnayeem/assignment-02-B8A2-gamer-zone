@@ -399,7 +399,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 150px 150px 150px 100px;
+  padding: 150px;
 }
 
 .category {
