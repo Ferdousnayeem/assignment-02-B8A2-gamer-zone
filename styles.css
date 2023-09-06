@@ -258,7 +258,8 @@ button:hover {
 }
 
 .online-games .games-cards .single-card p{
-    text-align: center;
+    text-align: left;
+    padding: 0 15px;
 }
 
 .online-games .games-cards .single-card .card-content{
