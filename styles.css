@@ -305,11 +305,14 @@ button:hover {
   width: 100%;
 }
 
-.instant-play {
+.instant-play,
+.play-games-online {
   display: flex;
+  margin: 60px 0;
 }
 
-.instant-play-left {
+.instant-play-left,
+.play-games-online-left {
   width: 60%;
   display: flex;
   justify-content: center;
@@ -328,22 +331,26 @@ button:hover {
   margin: 0;
 }
 
-.instant-play-left div p {
+.instant-play-left div p,
+.play-games-online-right div p {
   color: #534c64;
   text-align: right;
   font-size: 18px;
   font-weight: 400;
 }
 
-.instant-play-right {
+.instant-play-right,
+.play-games-online-right {
   width: 40%;
 }
 
-.instant-play-image-box {
+.instant-play-image-box,
+.play-games-online-image-box {
   position: relative;
 }
 
-.instant-play-image-box .image-one img {
+.instant-play-image-box .image-one img,
+.play-games-online-image-box .image-one img {
   width: 100%;
 }
 
@@ -352,6 +359,31 @@ button:hover {
   position: absolute;
   bottom: -20%;
   left: -25%;
+}
+
+.play-games-online-image-box .image-two {
+  width: 40%;
+  position: absolute;
+  bottom: -20%;
+  right: 0;
+}
+
+.play-games-online-left div {
+    padding: 200px 100px 200px 200px;
+  }
+
+.play-games-online-left div h3 {
+  text-align: left;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.gradient-text {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* .instant-play-right img{
@@ -428,21 +460,18 @@ button:hover {
     width: 80%;
   }
 
-  .instant-play{
+  .instant-play {
     flex-direction: column;
     align-items: center;
+    margin: 20% 0%;
   }
 
-  .instant-play-left{
+  .instant-play-left, .instant-play-right, .play-games-online-right, .play-games-online-left {
     width: 100%;
   }
 
-  .instant-play-left div{
+  .instant-play-left div {
     padding: 20px 50px;
-  }
-
-  .instant-play-right{
-    width: 100%;
   }
 
   .instant-play-image-box .image-one img {
@@ -450,12 +479,23 @@ button:hover {
     position: relative;
     top: 0;
     right: -150px;
-    }
+  }
 
-    .instant-play-image-box .image-two {
-        width: 40%;
-        position: absolute;
-        bottom: -20%;
-        left: 0;
-    }
+  .instant-play-image-box .image-two {
+    width: 40%;
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+  }
+
+  .play-games-online {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 20% 0%;
+  }
+
+  .play-games-online-left div{
+    padding: 50px;
+  }
+
 }
